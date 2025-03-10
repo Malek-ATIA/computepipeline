@@ -16,7 +16,7 @@ Build Instructions: <br/>
 git clone https://github.com/Malek-ATIA/computepipeline.git <br/>
 cd computepipeline <br/>
 mkdir build && cd build <br/>
-cmake <br/>
+cmake .. <br/>
 make <br/>
  <br/>
 Finally you can run ./ComputePipeline <br/>
