@@ -6,13 +6,13 @@ a. Images must be decoded <br/>
 b. Compressed data must be decompressed <br/>
 c. JSON must be turned into a C++ object <br/>
  <br/>
-  <br/>
+ <br/>
 Actions are following factory design pattern for creating and registering new actions <br/>
 computePipeline has a centralized manager to make sure pipelines are not created more than once for the same uri or resource for performance reasons. <br/>
 It also store the last successful action result just in case the pipeline was interrupted and we don't want to resume from scratch because actions might be expensive (e.g loading uri action). <br/>
  <br/>
  <br/>
-Build Instructions: <br/>
+# Build Instructions: <br/>
 git clone https://github.com/Malek-ATIA/computepipeline.git <br/>
 cd computepipeline <br/>
 mkdir build && cd build <br/>
